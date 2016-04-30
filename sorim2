@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to sorim's website!</title>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+	
+	
+		
+			<p>
+	<img src="html/me.jpg"  width="400px"; height="300px" ;>
+</p>
+
+<div id="div1">
+	
+		<p><font size="40"><strong>Who is <span>sorim</span>?</font></strong></p>
+		<ul>
+		<li><p><h2>name:o so rim</h2></p></li>
+	<li><p><h2>residence: Daejeon </h2></p></li>
+	<li><p><h2>age:20</h2></p></li>
+	<li><p><h2>birthday:1997.12.27</h2></p></li>
+</ul>
+	</div>
+
+	<p>
+	</p>
+	<div id="div2">
+
+		<p><font size="40"><strong>Biography</strong></font></p>		
+		<p>
+			<img src="html/life.png" width="400px"; height="300px";></p>
+		<p><h3>I was born in Daejeon and grew up in Daejeon.<br>
+           There are 4 people in my family. mom, dad, brother, and me.<br>
+           Daejeon budnae elementary school, Daejeon taepyeong middle school,Chungnam girl's highschool were my school. <br>
+           Now, I am attending <font size="10"><strong>Geumgang university.</strong></font></h3>
+       </p>
+   </div>
+   <p>
+   </p>
+   <div id="div3">
+       <p><font size="40"><strong>
+       <span>Sorim's</span> hobby? </strong></font></p>
+       <p><h4>(click the button!)</h4></p>
+
+ <p>
+<button type="button" class="btn btn-listening to music btn-primary" onclick="location='http://www.melon.com/'">listening to music</button>
+
+
+<button type="button" class="btn btn-reading a book btn-primary" onclick="location='http://book.naver.com/'">reading a book</button>
+
+
+<button type="button" class="btn btn-web searching btn-primary" onclick="location='http://www.naver.com/'">web searching</button>
+
+
+<button type="button" class="btn btn-watching a drama btn-primary" onclick="location='http://www.kbs.co.kr/drama/sun/'">watching a drama</button>
+
+
+<button type="button" class="btn btn-talking with friends btn-primary" onclick="location='http://www.kakao.com/talk'">talking with friends</button>
+</div>
+
+<p>
+	</p>
+	<div id="div4">
+		<p><font size="40"><strong><span>Sorim's</span> interest these days</strong></font></p>
+		<ul>
+		<li><p><h3> studying html,css </h3></p></li>
+		<p><h4>html site that i made ,'About kakao' (click the button!)
+<div id="div5">
+	<a href="file:///C:/Users/%EC%98%A4%EC%86%8C%EB%A6%BC/Desktop/sorim.html">About kakao</a></div>
+		</h4></p>
+<li><p><h3>internet shopping</h3></p></li>
+<li><p><h3>studying chinese</h3></p></li></div>
+<p>
+</p>
+<div id="div6">
+	<p><font size="40"><strong>SNS/BLOG</strong></font></p>
+	<p><font size="5"><a href="https://www.facebook.com/profile.php?id=100006572027512">Facebook</a>  | 
+		<a href="http://blog.naver.com/pippilucy">Blog</a></font></p>
+</div>
+<p>
+	</p>
+	<div id="div7">
+		<p><font size="40"><strong>Album</strong></font></p>
+		
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+ $(function(){
+ setInterval("chImg()", 2000); 
+});
+var i = 1;
+ var imgs = new Array();
+ imgs[0] = "html/gg.jpg" ;
+ imgs[1] = "html/ll.jpg";
+ imgs[2] = "html/pp.jpg";
+ imgs[3] = "html/rr.jpg";
+ imgs[4] = "html/ww.jpg";
+ 
+
+
+function chImg(){
+ $("#imgs").attr('src', imgs[i-1]); 
+$("#imgs").hide();
+ $("#imgs").attr('src', imgs[i]); 
+$("#imgs").fadeIn('slow');
+ i++;
+ if(i>=imgs.length){
+ i=0;
+ }
+ }
+ </script>
+ </head>
+
+<body>
+ <img src="html/me.jpg" id="imgs">
+ </body>
+
+</html>
+
+</body>
+</html>
+       
+
+       
+
+     
